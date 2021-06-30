@@ -6,7 +6,7 @@ import win32com.client
 
 speak = win32com.client.Dispatch("SAPI.SpVoice")
 
-ui,_ = loadUiType("ui2.ui")
+ui,_ = loadUiType("GUI.ui")
 
 class MainApp(QMainWindow,ui):
     def __init__(self,parent=None):
